@@ -42,3 +42,9 @@ Finally, we can execute the service call and validate the response.
             return;
         }
         response.SearchProjectsResult.ForEach(p => Console.WriteLine($"--> {p.ProjectName}"));
+
+## Furhter Documentation
+For enhanced documentation read the following manual:
+
+- [TimePunch API Dokumentation (deutsch)](http://tpwebsite.s3-eu-central-1.amazonaws.com/doc/TimePunch-API-4.8-de.pdf)
+- [TimePunch API Documentation (english)](http://tpwebsite.s3-eu-central-1.amazonaws.com/doc/TimePunch-API-4.8-en.pdf)
